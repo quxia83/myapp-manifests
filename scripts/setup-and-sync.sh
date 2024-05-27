@@ -1,7 +1,3 @@
-
-### Sample Script (`setup-and-sync.sh`)
-
-```bash
 #!/bin/bash
 
 # Variables for Argo CD operations
