@@ -1,0 +1,6 @@
+# myapp-manifests/overlays/production/kustomization.yaml
+bases:
+  - ../../base
+images:
+  - name: quxia83/myapp  # This should match the name in your base deployment
+    newTag: "latest"  # Default tag, will be overridden by CI
