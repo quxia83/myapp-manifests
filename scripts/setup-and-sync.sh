@@ -1,7 +1,8 @@
 #!/bin/bash
 
+set -x 
 # Variables for Argo CD operations
-REPO_URL="https://github.com/quxia/myapp-manifests.git"
+REPO_URL="https://github.com/quxia83/myapp-manifests.git"
 APP_NAME="myapp"
 PATH_TO_DEPLOYMENT="deployment"
 DEST_SERVER="https://kubernetes.default.svc"
