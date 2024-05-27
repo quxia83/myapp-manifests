@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: myapp
-        image: quxia/myapp:27-20240527
+        image: quxia/myapp:28-20240527
         ports:
         - containerPort: 3000
