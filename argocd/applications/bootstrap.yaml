@@ -7,7 +7,7 @@ spec:
   project: default
   source:
     repoURL: 'https://github.com/quxia83/myapp-manifests.git'
-    path: argocd
+    path: argocd/applications
     targetRevision: HEAD
   destination:
     server: 'https://kubernetes.default.svc'
